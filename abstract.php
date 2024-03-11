@@ -1,7 +1,7 @@
 <?php
 abstract class Shape {
     // Abstract method with protected access modifier
-    abstract protected function calculateArea($x, $y);
+    abstract protected function calculateArea($x, $y);  
 }
 
 class Rectangle extends Shape {
